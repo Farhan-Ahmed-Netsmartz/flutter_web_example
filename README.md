@@ -12,3 +12,14 @@ make deploy-web
 
 ## Watch The Video
 [![Watch the video](https://img.youtube.com/vi/iOra0bxlWdE/maxresdefault.jpg)](https://youtu.be/iOra0bxlWdE)
+
+
+---
+flutter clean
+flutter pub get
+flutter build web --base-href /flutter-website/ --release
+
+cd .\build\web\
+git init
+git add .
+git commit -m "Deploy this"
