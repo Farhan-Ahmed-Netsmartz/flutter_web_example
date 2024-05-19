@@ -16,10 +16,15 @@ make deploy-web
 
 ---
 flutter clean
+
 flutter pub get
+
 flutter build web --base-href /flutter-website/ --release
 
 cd .\build\web\
+
 git init
+
 git add .
+
 git commit -m "Deploy this"
