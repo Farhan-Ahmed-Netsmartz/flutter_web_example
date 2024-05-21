@@ -19,7 +19,12 @@ flutter clean
 
 flutter pub get
 
-flutter build web --base-href /flutter-website/ --release
+# when deploy on github pages
+flutter build web --base-href /flutter-website/ --release  
+# When deploy on Azure static web app
+flutter build web --release  
+
+
 
 cd .\build\web\
 
