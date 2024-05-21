@@ -1,6 +1,6 @@
 # flutter_web_example
 
-Flutter project configured for deployment on the web through GitHub Pages and a custom domain.
+Flutter project configured for deployment on the web through GitHub Pages and a custom domain.....
 
 [See this repo for actual hosted project](https://github.com/davefaliskie/flutter-website)
 
